@@ -1,0 +1,84 @@
+body,
+html {
+	width: 100%;
+	background: rgb(0,255,250);
+	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
+	font-size: 16px;
+}
+.person {
+	
+	position: relative;
+	margin:0 30% 0 30%;
+    width:40%;
+
+}
+.person__info {
+    
+    display: inline-block;
+    width: 350px; 
+    
+}
+.person__contacts {
+
+	position: relative;
+	display: inline-block;
+	margin-left: 32px;
+	top: -120px;
+    
+}
+.person__details {
+	
+	margin-top: 32px; 
+	   
+}
+.avatar {
+			
+	margin-top: 32px;
+
+}
+.avatar__picture {
+
+    border-radius: 1000px; 
+    border: 25px solid white; 
+
+}
+.contacts {
+
+	color: #000;
+	font-weight:bold
+
+}
+.contacts__name {
+
+	font-size: 32px;
+	
+}
+.contacts__role {
+
+	font-size: 19.2px;
+	margin-bottom: 30px;
+
+}
+.contacts__item {
+	/* добавьте ваш код  */
+}
+.contacts__title {
+
+	font-weight:bold
+}
+.contacts__title:after {
+	/* добавьте ваш код  */
+}
+.contacts__link {
+
+	color: gray;
+}
+.paragraph {
+
+	margin-top: 16px; 
+       
+}
+.paragraph_last {
+
+    margin-bottom: 48px; 
+}
